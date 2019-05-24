@@ -78,7 +78,7 @@
 
   - name: Install - Setup client
     include_role:
-      name: ipaclient
+      name: jaredhocutt.freeipa_ipaclient
     vars:
       state: present
       ipaclient_domain: "{{ result_ipareplica_test.domain }}"
